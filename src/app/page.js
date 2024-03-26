@@ -7,17 +7,15 @@ export default function Home() {
       <div className={styles.description}>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://www.naralyserrano.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
+              src="/nari_italic_logo.png"
+              alt="Naraly Serrano's Logo"
               width={100}
-              height={24}
+              height={100}
               priority
             />
           </a>
@@ -27,10 +25,10 @@ export default function Home() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
+          src="/placeholder.png"
           alt="Next.js Logo"
-          width={180}
-          height={37}
+          width={100}
+          height={100}
           priority
         />
       </div>
@@ -43,21 +41,21 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Tangy Frederick's Personal Site <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Designed a site that visually shares the clients professional story.</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/mitrealityhack"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            MIT Reality Hack <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Explored new technologies at the world premier AR/VR hackathon.</p>
         </a>
 
         <a
@@ -67,9 +65,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            MCS Site Refresh <span>-&gt;</span>
           </h2>
-          <p>Explore starter templates for Next.js.</p>
+          <p>Designed the UI to improve client's goals. </p>
         </a>
 
         <a
@@ -79,10 +77,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+          Portfolio Launch <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Designed, developed, and deployed a site showcasing my skills.  
           </p>
         </a>
       </div>
