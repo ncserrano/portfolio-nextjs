@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
         />
       </div>
 
+
+
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -46,17 +49,13 @@ export default function Home() {
           <p>Designed a site that visually shares the clients professional story.</p>
         </a>
 
-        <a
-          href="/mitrealityhack"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            MIT Reality Hack <span>-&gt;</span>
-          </h2>
-          <p>Explored new technologies at the world premier AR/VR hackathon.</p>
-        </a>
+        <Link href="/proj_mitrealityhack" className={styles.card}>
+        <h2>
+          MIT Reality Hack <span>-&gt;</span>
+        </h2>
+        <p>Explored new technologies at the world premier AR/VR hackathon.</p>
+       </Link>
+
 
         <a
           href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -80,7 +79,7 @@ export default function Home() {
           Portfolio Launch <span>-&gt;</span>
           </h2>
           <p>
-            Designed, developed, and deployed a site showcasing my skills.  
+            Designed, developed, and deployed a site showcasing my design and dev skills.  
           </p>
         </a>
       </div>
