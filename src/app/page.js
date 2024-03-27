@@ -2,10 +2,11 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Link from 'next/link';
 
+
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
+      <div className={styles.description} >
         <div>
           <a
             href="https://www.naralyserrano.com"
@@ -37,24 +38,20 @@ export default function Home() {
 
 
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+
+        <Link href="/proj_tangyfrederick" className={styles.card}>
           <h2>
             Tangy Frederick's Personal Site <span>-&gt;</span>
           </h2>
           <p>Designed a site that visually shares the clients professional story.</p>
-        </a>
+        </Link>
 
         <Link href="/proj_mitrealityhack" className={styles.card}>
-        <h2>
-          MIT Reality Hack <span>-&gt;</span>
-        </h2>
-        <p>Explored new technologies at the world premier AR/VR hackathon.</p>
-       </Link>
+          <h2>
+            MIT Reality Hack <span>-&gt;</span>
+          </h2>
+          <p>Explored new technologies at the world premier AR/VR hackathon.</p>
+        </Link>
 
 
         <a
